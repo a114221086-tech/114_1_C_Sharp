@@ -17,24 +17,6 @@ namespace Test_Average
             InitializeComponent();
         }
 
-        private void calculateButton_Click(object sender, EventArgs e)
-        {
-            
-        }
-
-        private void clearButton_Click(object sender, EventArgs e)
-        {
-            // Clear the input and output controls.
-            test1TextBox.Text = "";
-            test2TextBox.Text = "";
-            test3TextBox.Text = "";
-            averageLabel.Text = "";
-        }
-
-        private void exitButton_Click(object sender, EventArgs e)
-        {
-            // Close the form.
-            this.Close();
-        }
+        
     }
 }
